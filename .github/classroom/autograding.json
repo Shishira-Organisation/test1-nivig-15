@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "i/o test",
+      "setup": "",
+      "run": "run test1",
+      "input": "world\r\nName\r\nDan!",
+      "output": "hello world\r\nhello Name\r\nhello Dan!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
